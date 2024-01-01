@@ -4,6 +4,7 @@ import Me from './components/Me/Me'
 import Community from './components/Community/Community'
 import Portfolio from './components/Portfolio/Portfolio'
 import Socials from './components/Socials/Socials'
+import Footer from './components/Footer/Footer'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Me />
       <Portfolio />
       <Community />
+      <Footer />
     </main>
   )
 }
