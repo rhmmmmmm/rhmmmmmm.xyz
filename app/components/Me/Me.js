@@ -5,7 +5,7 @@ import hero from '../../assets/profile.png'
 
 const Me = () => {
   return (
-    <div className='mt-40 pt-50 pb-20'>
+    <div className='mt-20 pt-50 pb-20'>
     <div className='relative mx-auto rounded-full w-80 h-80 mt-5 overflow-hidden md:h-96 md:w-96 hover:border-r-4 border-lime-400 duration-200'>
       <Image src={hero} layout='fill' objectFit='cover'/>
     </div>
