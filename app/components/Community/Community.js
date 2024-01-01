@@ -13,6 +13,9 @@ const Community = () => {
     <div className='pb-10 '>
         <div>
           <h3 className='text-3xl font-bold md:text-5xl'>Partner <span>Community</span></h3>
+          <p className='text-md pt-5 leading-8 md:text-lg max-w-3xl mx-auto'>
+            United with fellow artists in the partner communities, we share creative passions across various mediums.
+          </p>
         </div>
         <div className='pb-10 lg:flex gap-10 justify-center items-center'>
           <div className='p-2 rounded-xl my-5'>
@@ -27,13 +30,16 @@ const Community = () => {
         </div>
         <div>
           <h3 className='text-3xl font-bold md:text-5xl'>artist <span>collective</span></h3>
+          <p className='text-md pt-5 leading-8 md:text-lg max-w-3xl mx-auto'>
+            Spanning various mediums and united by unique creative goals, these artist collectives are where I belong.
+          </p>
         </div>
         <div className='lg:flex gap-10 justify-center items-center'>
           <div className='p-10 rounded-xl my-5'>
             <div className='flex justify-center items-center'><Image src={ppn} width={100} height={100}/></div>
             <h3 className='text-lg py-2'>Pixel Palette<br />Nation</h3>
             <div className='text-3xl flex justify-center gap-3 py-1'>
-              <a href='https://www.linkedin.com/in/pixel-palette-nation-67161b295/'><FaLinkedin /></a>
+              <a href='https://pixelpalettenation.com/'><TfiWorld /></a>
               <a href='https://twitter.com/PixelPalettePPN'><FaXTwitter /></a>
               <a href='https://instagram.com/pixelpalettenation'><FaInstagram /></a>
             </div>
