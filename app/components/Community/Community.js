@@ -12,24 +12,7 @@ const Community = () => {
   return (
     <div className='pb-10 '>
         <div>
-          <h3 className='text-3xl font-bold md:text-5xl'>Partner <span>Community</span></h3>
-          <p className='text-md pt-5 leading-8 md:text-lg max-w-3xl mx-auto'>
-            United with fellow artists in the partner communities, we share creative passions across various mediums.
-          </p>
-        </div>
-        <div className='pb-10 lg:flex gap-10 justify-center items-center'>
-          <div className='p-2 rounded-xl my-5'>
-            <div className='flex justify-center items-center'><Image src={firley} width={100} height={100}/></div>
-            <h3 className='text-lg py-2'>Firley</h3>
-            <div className='text-3xl flex justify-center gap-5 py-1'>
-              <a href='https://firley.xyz/'><TfiWorld /></a>
-              <a href='https://www.twitter.com/Firleyxyz'><FaXTwitter /></a>
-              <a href='https://www.instagram.com/Firleyxyz'><FaInstagram /></a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h3 className='text-3xl font-bold md:text-5xl'>artist <span>collective</span></h3>
+          <h3 className='text-3xl font-bold md:text-5xl'>artist <span>collectives</span></h3>
           <p className='text-md pt-5 leading-8 md:text-lg max-w-3xl mx-auto'>
             Spanning various mediums and united by unique creative goals, these artist collectives are where I belong.
           </p>
@@ -37,16 +20,22 @@ const Community = () => {
         <div className='lg:flex gap-10 justify-center items-center'>
           <div className='p-10 rounded-xl my-5'>
             <div className='flex justify-center items-center'><Image src={ppn} width={100} height={100}/></div>
-            <h3 className='text-lg py-2'>Pixel Palette<br />Nation</h3>
             <div className='text-3xl flex justify-center gap-3 py-1'>
               <a href='https://pixelpalettenation.com/'><TfiWorld /></a>
               <a href='https://twitter.com/PixelPalettePPN'><FaXTwitter /></a>
               <a href='https://instagram.com/pixelpalettenation'><FaInstagram /></a>
             </div>
           </div>
+          <div className='p-2 rounded-xl my-5'>
+            <div className='flex justify-center items-center'><Image src={firley} width={100} height={100}/></div>
+            <div className='text-3xl flex justify-center gap-5 py-1'>
+              <a href='https://firley.xyz/'><TfiWorld /></a>
+              <a href='https://www.twitter.com/Firleyxyz'><FaXTwitter /></a>
+              <a href='https://www.instagram.com/Firleyxyz'><FaInstagram /></a>
+            </div>
+          </div>
           <div className='p-10 rounded-xl my-5'>
             <div className='flex justify-center items-center'><Image src={web5} width={100} height={100}/></div>
-            <h3 className='text-lg py-2'>Bro-Code<br />Art</h3>
             <div className='text-3xl flex justify-center gap-5 py-1'>
               <a href='https://www.linkedin.com/company/bro-code-art/'><FaLinkedin /></a>
               <a href='https://twitter.com/BroCodeArt'><FaXTwitter /></a>
@@ -54,8 +43,7 @@ const Community = () => {
             </div>
           </div>
           <div className='p-10 rounded-xl my-5'>
-          <div className='flex justify-center items-center'><Image src={onelove} width={100} height={100}/></div>
-            <h3 className='text-lg py-2'>One Love<br />Art Dao</h3>
+            <div className='flex justify-center items-center'><Image src={onelove} width={100} height={100}/></div>
             <div className='text-3xl flex justify-center gap-5 py-1'>
               <a href='https://onelovedao.org/'><TfiWorld /></a>
               <a href='https://twitter.com/OneLoveArtDAO'><FaXTwitter /></a>
