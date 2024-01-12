@@ -29,8 +29,6 @@ const Portfolio = () => {
                 </div>
                 <h3 className='text-lg pt-2 hover:scale-125'><a href='https://foundation.app/@rhmmmmmm?tab=created'>foundation.app</a></h3>
             </div>
-        </div>
-        <div className=' lg:flex gap-10 justify-center items-center'>
             <div className=' p-2 rounded-xl m-5'>
                 <div className='flex justify-center items-center'>
                     <Image src={web4} className='rounded-lg' width={200} height={200}/>
