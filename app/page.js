@@ -11,9 +11,11 @@ export default function Home() {
   return (
     <main className='px-10 md:px-20 lg:px-40 text-center'>
       <Socials />
-      <Me />
-      <Portfolio />
-      <Community />
+      <div className='my-2 py-2'>
+        <Me />
+        <Portfolio />
+        <Community />
+      </div>
       <Footer />
     </main>
   )
