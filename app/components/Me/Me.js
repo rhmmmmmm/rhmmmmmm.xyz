@@ -25,7 +25,16 @@ const Me = () => {
       <div className='text-left pb-10'>
       <span className='text-2xl md:text-3xl'>achievements</span>
       <ul className='list-disc list-inside decoration-lime-400 text-md md:text-lg '>
+      <li className='py-1'><span>Artist of the month Oct 2023</span> Pixel Palette Nation</li>
         <li className='py-1'><span>Genesis Artist</span> Vitruveo Chain</li>
+      </ul>
+      </div>
+    </div>
+    <div className='lg:flex gap-10 items-top justify-center'>
+      <div className=' pb-10'>
+      <span className='text-2xl md:text-3xl'>Upcoming exhibition</span>
+      <ul className='text-left list-disc list-inside decoration-lime-400 text-md md:text-lg '>
+        <li className='py-1'>NFT NYC 2024</li>
       </ul>
       </div>
     </div>
