@@ -12,7 +12,7 @@ const Me = () => {
     <div className='text-center p-10'>
       <h2 className='text-3xl py-1 font-bold md:text-5xl'><span>Prasham Gautam</span></h2>
       <h3 className='text-2xl py-1 md:text-3xl'>Also, known as <span>rhmmmmmm</span></h3>
-      <p className='text-md pt-5 leading-8 md:text-lg max-w-3xl mx-auto'>I am a <span>Business Developer</span> by day and a <span>AI / Mixed Media Artist</span> by night. I specialize in creating unique and innovative projects using artificial intelligence and blockchain technology. </p>
+      <p className='text-md pt-5 leading-8 md:text-lg max-w-3xl mx-auto'>I am a <span>Higher education marketing expert</span> by day and a <span>AI / Mixed Media Artist</span> by night. I specialize in creating unique and innovative projects using artificial intelligence and blockchain technology. </p>
     </div>
     <div className='lg:flex gap-10 items-top justify-center'>
       <div className='text-left pb-10'>
