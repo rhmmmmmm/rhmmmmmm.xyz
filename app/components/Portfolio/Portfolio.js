@@ -49,7 +49,7 @@ const Portfolio = () => {
                 <div className='flex justify-center items-center'>
                     <Image src={web5} className='rounded-lg' width={200} height={200}/>
                 </div>
-                <h3 className='text-lg pt-2 hover:scale-125'><a href='https://exchange.art/series/edit/Mev1ZqtamXdMeDmbDpwA/live'>Exchange.art</a></h3>
+                <h3 className='text-lg pt-2 hover:scale-125'><a href='https://exchange.art/rhmmmmmm/nfts'>Exchange.art</a></h3>
             </div>
         </div>
     </div>
