@@ -22,9 +22,9 @@ const Community = () => {
             <div className='flex justify-center items-center'><Image src={firley} width={100} height={100}/></div>
             <h3 className='text-lg py-2'>Firley</h3>
             <div className='text-3xl flex justify-center gap-5 py-1'>
-              <a href='#'><TfiWorld /></a>
-              <a href='#'><FaXTwitter /></a>
-              <a href='#'><FaInstagram /></a>
+              <a href='https://firley.xyz/'><TfiWorld /></a>
+              <a href='https://www.twitter.com/Firleyxyz'><FaXTwitter /></a>
+              <a href='https://www.instagram.com/Firleyxyz'><FaInstagram /></a>
             </div>
           </div>
         </div>
