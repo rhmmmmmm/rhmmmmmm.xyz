@@ -12,13 +12,13 @@ const Community = () => {
   return (
     <div className='pb-10 '>
         <div>
-          <h3 className='text-3xl font-bold md:text-5xl'>artist <span>collectives</span></h3>
-          <p className='text-md pt-5 leading-8 md:text-lg max-w-3xl mx-auto'>
+          <h3 className='text-3xl font-bold'>artist <span>collectives</span></h3>
+          <p className='text-md pt-5 leading-8 max-w-3xl mx-auto'>
             Spanning various mediums and united by unique creative goals, these artist collectives are where I belong.
           </p>
         </div>
         <div className='lg:flex gap-10 justify-center items-center'>
-          <div className='p-10 rounded-xl my-5'>
+          <div className='p-5 rounded-xl my-5'>
             <div className='flex justify-center items-center'><Image src={ppn} width={100} height={100}/></div>
             <div className='text-3xl flex justify-center gap-3 py-1'>
               <a href='https://pixelpalettenation.com/'><TfiWorld /></a>
@@ -26,7 +26,7 @@ const Community = () => {
               <a href='https://instagram.com/pixelpalettenation'><FaInstagram /></a>
             </div>
           </div>
-          <div className='p-2 rounded-xl my-5'>
+          <div className='p-5 rounded-xl my-5'>
             <div className='flex justify-center items-center'><Image src={firley} width={100} height={100}/></div>
             <div className='text-3xl flex justify-center gap-5 py-1'>
               <a href='https://firley.xyz/'><TfiWorld /></a>
@@ -34,7 +34,7 @@ const Community = () => {
               <a href='https://www.instagram.com/Firleyxyz'><FaInstagram /></a>
             </div>
           </div>
-          <div className='p-10 rounded-xl my-5'>
+          <div className='p-5 rounded-xl my-5'>
             <div className='flex justify-center items-center'><Image src={web5} width={100} height={100}/></div>
             <div className='text-3xl flex justify-center gap-5 py-1'>
               <a href='https://www.linkedin.com/company/bro-code-art/'><FaLinkedin /></a>
@@ -42,7 +42,7 @@ const Community = () => {
               <a href='https://www.instagram.com/brocodeart/'><FaInstagram /></a>
             </div>
           </div>
-          <div className='p-10 rounded-xl my-5'>
+          <div className='p-5 rounded-xl my-5'>
             <div className='flex justify-center items-center'><Image src={onelove} width={100} height={100}/></div>
             <div className='text-3xl flex justify-center gap-5 py-1'>
               <a href='https://onelovedao.org/'><TfiWorld /></a>
