@@ -22,6 +22,7 @@ const Me = () => {
       <ul className='list-disc list-inside decoration-lime-400 text-md '>
         <li className='py-1'><span>Art Basel Miami 2023</span>[ part of #StratosphereBySabet ]</li>
         <li className='py-1'><span>CRYPTO WINTER WONDERLAND 2023</span> by Beeple Studios</li>
+        <li className='py-1'><span>NFT NYC 2024</span></li>
       </ul>
       </div>
       <div className='text-left pb-5'>
@@ -36,7 +37,7 @@ const Me = () => {
       <div className=' pb-5'>
       <span className='text-2xl'>Upcoming exhibition</span>
       <ul className='md:text-left list-disc list-inside decoration-lime-400 text-md'>
-        <li className='py-1'>NFT NYC 2024</li>
+        <li className='py-1'>NFT NYC 2025</li>
       </ul>
       </div>
     </div>
