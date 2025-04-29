@@ -11,7 +11,7 @@ const Socials = () => {
             <a href='https://www.instagram.com/rhmmmmmm'><FaInstagram /></a>
             <a href='https://discord.com/rhmmmmmm'><FaDiscord /></a>
             <a href='https://t.me/RHM1212'><FaTelegram /></a>
-            <a href='mailto:rhmmmmmm@rhmmmmmm.xyz'><FaEnvelope /></a>
+            <a href='mailto:prasham.gautam@gmail.com'><FaEnvelope /></a>
         </div>
     </div>
     
